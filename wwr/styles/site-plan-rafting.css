@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
 
 :root {
-    --primary-color: #44436c;
+    --primary-color: #363590;
     --secondary-color: #708783;
     --accent1-color: #94a67f;
     --accent2-color: #8db580;
@@ -11,7 +11,7 @@
   
     --nav-background-color: #8db580;
     --nav-link-color: #708783;
-    --nav-hover-link-color: #44436c;
+    --nav-hover-link-color: #363590;
     --nav-hover-background-color: #94a67f;
   }
 
