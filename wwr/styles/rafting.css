@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
+
+:root {
+    --primary-color: #363590;
+    --secondary-color: #708783;
+    --accent1-color: #94a67f;
+    --accent2-color: #8db580;
+  
+    --heading-font: 'Gowun Batang', serif;
+    --paragraph-font: 'Arial', serif;
+  
+    --nav-background-color: #8db580;
+    --nav-link-color: #708783;
+    --nav-hover-link-color: #363590;
+    --nav-hover-background-color: #94a67f;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 30px;
+  }
+
+  h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  .hero{
+    position: relative;
+    margin: 10px auto;
+  }
+
+  .hero img {
+    display: block;
+	width: 100%;
+	height: 100%;
+  }
+
+  h1{
+    position: absolute;
+    top: 80px;
+    right: 300px;
+    background-color:#708783;
+    opacity: 0.8;
+  }
+
+  #article{
+    position: absolute;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .sociallinks{
+    max-width: 40px;
+    padding: 10px;
+    top: auto;
+  }
+
