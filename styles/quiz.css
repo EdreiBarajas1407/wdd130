@@ -41,6 +41,10 @@
     padding: 2px;
   }
 
+  .id{
+    color: navy;
+  }
+
   .submit {
     text-align: center;
     margin: 1rem;
