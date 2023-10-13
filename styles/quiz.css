@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1em;
+    color: #333;
+    background: #fff;
+  }
+
+  header {
+    margin: 0 auto;
+    width: 600px;
+  }
+  
+  form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    background-color: #eee;
+    display: grid;
+  }
+
+  img {
+    display: block;
+    align-items: center;
+    padding: 2px;
+  }
+
+  .submit {
+    text-align: center;
+    margin: 1rem;
+    background-color: navy;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.2rem;
+  }
+  
+  button:hover {
+    background-color: navy;
+  }
