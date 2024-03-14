@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --primary-color: #b8b42d;
+  --secondary-color: #697A21;
+  --accent1-color: #FFFCE8;
+  --accent2-color: #FFFCE8;
+
+  --heading-font:"Naum Gothic Coding", monospace;
+  --paragraph-font:"Roboto", sans-serif;
+
+  --nav-background-color: #3E363F;
+  --nav-link-color: #fffce8;
+  --nav-hover-link-color: #FFFCE8;
+  --nav-hover-background-color: #b8b42d;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    background-color: var(--accent2-color);
+    max-width:960px;
+    padding: 20px;
+ }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 1em;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero img {
+    display: block;
+    height: auto;
+    float: right;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    left: 350px;
+    bottom: 270px;
+}
+
+article {
+    position: absolute;
+    top: 500px;
+    right: 600px;
+    
+}
