@@ -17,7 +17,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
     max-width:960px;
     padding: 20px;
  }
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header{
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--nav-background-color);
 }
 
 p {
@@ -37,7 +37,7 @@ p {
 }
 
 nav {
-    background-color: var(--nav-background-color);
+    color: #000;
     font-size: 1.2rem;
     display: flex;
 }
@@ -68,7 +68,7 @@ nav a:hover {
 h1 {
     position: absolute;
     left: 350px;
-    bottom: 270px;
+    bottom: 300px;
 }
 
 article {
@@ -76,4 +76,8 @@ article {
     top: 500px;
     right: 600px;
     
+}
+
+.sociallinks {
+    text-decoration: none;
 }
