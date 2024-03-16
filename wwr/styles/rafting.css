@@ -17,7 +17,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    background-color: var(--accent1-color);
+    background-color: #fff;
     max-width:960px;
     padding: 20px;
  }
@@ -29,11 +29,12 @@ h1, h2, h3, h4, h5, h6 {
 
 header{
     padding: 20px;
-    background-color: var(--nav-background-color);
+    background-color: #fff;
 }
 
 p {
     padding: 1em;
+    color: #000;
 }
 
 nav {
@@ -44,13 +45,13 @@ nav {
 
 nav a {
     display: block;
-    color: var(--nav-link-color);
+    color: #fff;
     text-decoration: none;
     padding: 0.5rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+    color: var(--nav-background-color);
 }
 
 nav a:hover {
