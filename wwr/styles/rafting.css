@@ -54,11 +54,6 @@ nav a:link, nav a:visited {
     color: var(--nav-background-color);
 }
 
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
 .hero img {
     display: block;
     height: auto;
@@ -70,13 +65,21 @@ h1 {
     position: absolute;
     left: 350px;
     bottom: 300px;
+    background-color: black;
+    opacity: 70%;
 }
 
 article {
     position: absolute;
     top: 500px;
     right: 600px;
-    
+    background-color: steelblue;
+    opacity: 90%;
+    width: 60%;
+}
+
+article p {
+    color: #fff;
 }
 
 .sociallinks {
