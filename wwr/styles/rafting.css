@@ -24,7 +24,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     display: grid;
     justify-content: center;
 }
@@ -35,7 +35,7 @@ header{
     display: grid;
     grid-template-columns: 3fr 2fr; 
     align-items: center;
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: 1px solid var(--primary-color);
     max-width: 1000px;
 }
 
@@ -71,26 +71,39 @@ nav a:link, nav a:visited {
 h1 {
     position: absolute;
     left: 350px;
-    bottom: 300px;
+    bottom: 450px;
+    color: var(--primary-color);
     background-color: black;
-    opacity: 70%;
+    opacity: 90%;
 }
 
 article {
     position: absolute;
     top: 500px;
     right: 600px;
-    background-color: steelblue;
+    background-color: black;
     opacity: 90%;
-    width: 60%;
 }
 
 article p {
     color: #fff;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 5fr); 
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid img {
+    width: 100%;
+}
+
 .sociallinks {
     text-decoration: none;
+    display: flex;
 }
 
 footer {
@@ -99,10 +112,4 @@ footer {
     justify-content: center;
 }
 
-figure img {
-    width: 100%;
-    display: grid;
-    grid-column: 2/5;
-    grid-row: 1/2;
-}
 
