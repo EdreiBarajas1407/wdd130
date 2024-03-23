@@ -90,13 +90,13 @@ article p {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(7, 1fr); 
+    grid-template-columns: repeat(5, 1fr); 
     grid-gap: 1px;
     align-items: center;
 }
 
 .grid h2 {
-    grid-template-columns: 2fr;
+    grid-column: 1/6;
     justify-items: center;
 }
 
