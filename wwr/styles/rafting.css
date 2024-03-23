@@ -88,6 +88,23 @@ article p {
     color: #fff;
 }
 
+.history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    align-items: center;
+}
+
+.history h2 {
+    grid-column: 1/4;
+    justify-content: center;
+    align-content: center;
+}
+
+.history img {
+    max-width: 250px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr); 
