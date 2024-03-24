@@ -93,6 +93,7 @@ article p {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1px;
     align-items: center;
+    width: 100%;
 }
 
 .history h2 {
