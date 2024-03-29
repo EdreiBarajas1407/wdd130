@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    color: #333;
+    background: #fff;
+  }
+
+  header {
+    margin: 0 auto;
+    width: 600px;
+  }
+
+  h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+  }
+  
+  form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    background-color: #eee;
+    display: grid;
+  }
+
+  label {
+    font-size: 1.1rem;
+  }
+
+  input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  img {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 2rem;
+  }
+
+  button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .80rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    align-items: center;
+    width: 100%;
+  }
+
+  button:hover {
+   background-color: orange;
+  }
+  
