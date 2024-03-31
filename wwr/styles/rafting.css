@@ -137,6 +137,9 @@ footer {
 
 .contact h1 {
     position: absolute;
+    left: 375px;
+    margin: 0 auto;
+    margin-bottom: 30px;
     color: #697A21;
     background-color: #fff;
     font-size: 3rem;
@@ -145,27 +148,39 @@ footer {
 .contact section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 0.5px;
     width: 100%;
     align-items: center;
+    text-align: center;
+    margin-top: 100px;
 }
 
-.contact iframe {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+iframe {
+    display: grid;
     margin: 0 auto;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact p {
+    background-color: var(--accent1-color);
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .contact h2 {
     margin: 0.75rem;
+    font-size: 1.8rem;
+    color: var(--nav-background-color);
 }
 
-.contact form {
+form {
     width: 50%;
-    margin-top: 1em;
+    height: 550px;
+    margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
     background-color: var(--accent1-color);
     display: grid;
@@ -173,4 +188,30 @@ footer {
     justify-content: center;
 }
 
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    color: #000;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: .80rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    align-content: center;
+    justify-items: center;
+  }
+
+  button:hover {
+   background-color: var(--nav-hover-background-color);
+  }
 
