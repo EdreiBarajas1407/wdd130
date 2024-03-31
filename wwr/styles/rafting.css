@@ -133,4 +133,44 @@ footer {
     justify-content: center;
 }
 
+/* Contact CSS */
+
+.contact h1 {
+    position: absolute;
+    color: #697A21;
+    background-color: #fff;
+    font-size: 3rem;
+}
+
+.contact section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.contact iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    margin: 0.75rem;
+}
+
+.contact form {
+    width: 50%;
+    margin-top: 1em;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    background-color: var(--accent1-color);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
 
