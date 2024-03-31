@@ -59,8 +59,8 @@
     border-radius: .80rem;
     padding: .75rem;
     font-size: 1.2rem;
-    align-items: center;
-    width: 100%;
+    align-content: center;
+    justify-items: center;
   }
 
   button:hover {
