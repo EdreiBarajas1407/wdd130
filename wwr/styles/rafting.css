@@ -215,3 +215,86 @@ button {
    background-color: var(--nav-hover-background-color);
   }
 
+  /* Trips CSS */
+
+  .trips h1 {
+    background-color: transparent;
+    color: var(--accent2-color);
+    font-size: 3rem;
+  }
+
+  .maincontact p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .maincontact a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .river {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 1px;
+    align-items: end;
+  }
+  
+  .river h2 {
+    grid-column: 1/4;
+    justify-items: center;
+    font-size: 1.8rem;
+    border-top: 1px solid var(--primary-color);
+    padding: 2rem;
+  }
+
+  .river img {
+    width: 100%;
+    box-shadow: 0 0 30px gray;
+  }
+
+  .river a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .rapids {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 1px;
+    align-items: center;
+  }
+
+  .rapids h2 {
+    grid-column: 1/3;
+    justify-items: center;
+    font-size: 1.8rem;
+    border-top: 1px solid var(--primary-color);
+    padding: 2rem;
+  }
+
+  .rapids img {
+    width: 100%;
+    box-shadow: 0 0 30px gray;
+  }
+
+  .rapids a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .trips figcaption {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  
+
