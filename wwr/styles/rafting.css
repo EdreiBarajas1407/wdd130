@@ -385,10 +385,14 @@ button:hover {
   padding: 2rem;
 }
 
+.content figcaption {
+  text-align: center;
+  padding: 2rem;
+}
+
 .index form {
   width: 50%;
   height: 250px;
-  margin: 0 auto;
   padding: 1rem;
   border: 2px solid var(--secondary-color);
   border-radius: 1rem;
