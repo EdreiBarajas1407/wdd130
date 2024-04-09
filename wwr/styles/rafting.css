@@ -153,19 +153,32 @@ footer {
     align-items: center;
     text-align: center;
     margin-top: 100px;
+    border-bottom: 5px solid var(--primary-color);
 }
 
 iframe {
     display: grid;
     margin: 0 auto;
-    margin-bottom: 50px;
     justify-content: center;
     align-content: center;
+}
+
+.contactinfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  background-color: var(--accent1-color);
+  margin-bottom: 3rem;
+  border-bottom: 5px solid var(--primary-color);
 }
 
 .contact p {
     background-color: var(--accent1-color);
     margin-bottom: 20px;
+    padding: 5px;
     text-align: left;
 }
 
