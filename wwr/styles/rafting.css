@@ -229,38 +229,54 @@ button {
     font-size: 1.3rem;
   }
 
-  .maincontact a {
+  .trips nav a {
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
+    padding: 0.6rem;
+    width: 70%;
+    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    border-radius: 0.80rem;
   }
 
   .river {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 1px;
+    grid-gap: 30px;
     align-items: end;
   }
   
   .river h2 {
     grid-column: 1/4;
     justify-items: center;
+    text-align: center;
     font-size: 1.8rem;
     border-top: 1px solid var(--primary-color);
     padding: 2rem;
   }
 
   .river img {
+    margin: 0 auto;
     width: 100%;
     box-shadow: 0 0 30px gray;
   }
 
-  .river a {
+  .river nav a {
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
+    padding: 0.6rem;
+    width: 50%;
+    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    border-radius: 0.80rem;
+  }
+
+  .river p {
+    text-align: center;
   }
 
   .rapids {
@@ -280,21 +296,25 @@ button {
   }
 
   .rapids img {
-    width: 100%;
     box-shadow: 0 0 30px gray;
   }
 
-  .rapids a {
+  .rapids nav a {
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
+    padding: 0.6rem;
+    width: 100%;
+    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    border-radius: 0.80rem;
   }
 
-  .trips figcaption {
+  .rapids p {
     text-align: center;
-    padding: 2rem;
   }
+
 
   
 
