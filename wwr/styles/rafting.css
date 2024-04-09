@@ -153,6 +153,7 @@ footer {
     align-items: center;
     text-align: center;
     margin-top: 100px;
+    background-color: var(--accent1-color);
     border-bottom: 5px solid var(--primary-color);
 }
 
