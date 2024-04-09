@@ -374,6 +374,10 @@ button:hover {
   width: 100%;
 }
 
+.content img {
+  box-shadow: 0 0 30px gray;
+}
+
 .content h2 {
   grid-column: 1/4;
   font-size: 1.8rem;
