@@ -244,6 +244,13 @@ button:hover {
   font-size: 3rem;
 }
 
+.trips img {
+  display: block;
+  height: auto;
+  float: right;
+  position: relative;
+}
+
 .maincontact p {
   margin: 0 auto;
   text-align: center;
@@ -338,10 +345,19 @@ button:hover {
 
 /* Home Page CSS */
 
+.index img {
+  display: block;
+  height: auto;
+  float: right;
+  position: relative;
+}
+
 .index h1 {
   background-color: transparent;
   color: var(--accent2-color);
-  font-size: 3rem;
+  font-size: 4rem;
+  bottom: 250px;
+  right: 500px;
 }
 
 .indexhero img {
@@ -358,7 +374,7 @@ button:hover {
   justify-content: center;
   padding: 0.6rem;
   width: 30%;
-  color: var(--secondary-color);
+  color: var(--accent1-color);
   background-color: var(--nav-hover-background-color);
   border-radius: 0.80rem;
   position: absolute;
@@ -386,8 +402,8 @@ button:hover {
 }
 
 .content figcaption {
-  text-align: center;
-  padding: 2rem;
+  text-align: left;
+  padding: 3rem;
 }
 
 .index form {
@@ -427,4 +443,42 @@ button:hover {
 
 .index button:hover {
   background-color: var(--nav-hover-background-color);
+}
+
+.index aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+  position: relative;
+}
+
+.index aside h2 {
+  color: var(--primary-color);
+  position: absolute;
+  bottom: 195px;
+  left: 60px;
+}
+
+.idea {
+  border-top: 1px solid var(--secondary-color);
+  padding: 2em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.idea nav a {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+  width: 30%;
+  color: var(--accent1-color);
+  background-color: var(--nav-hover-background-color);
+  border-radius: 0.80rem;
 }
