@@ -373,7 +373,7 @@ button:hover {
   justify-content: center;
   padding: 0.6rem;
   width: 30%;
-  color: var(--accent1-color);
+  color: var(--nav-background-color);
   background-color: var(--nav-hover-background-color);
   border-radius: 0.80rem;
   position: absolute;
@@ -456,7 +456,7 @@ button:hover {
 }
 
 .index aside h2 {
-  color: var(--primary-color);
+  color: var(--nav-background-color);
   position: absolute;
   bottom: 195px;
   left: 60px;
@@ -477,7 +477,7 @@ button:hover {
   justify-content: center;
   padding: 0.6rem;
   width: 30%;
-  color: var(--accent1-color);
+  color: var(--nav-background-color);
   background-color: var(--nav-hover-background-color);
   border-radius: 0.80rem;
 }
