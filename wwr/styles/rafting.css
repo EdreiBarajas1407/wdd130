@@ -358,7 +358,7 @@ button:hover {
   justify-content: center;
   padding: 0.6rem;
   width: 30%;
-  color: var(--accent1-color);
+  color: var(--secondary-color);
   background-color: var(--nav-hover-background-color);
   border-radius: 0.80rem;
   position: absolute;
